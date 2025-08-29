@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone_ui/screens/splashscreen.dart';
 
 void main() {
   runApp(MyHome());
@@ -9,6 +10,14 @@ class MyHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Start());
+    return MaterialApp(
+      title: 'WhatsApp',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF00A884)),
+        useMaterial3: false
+      ),
+      debugShowCheckedModeBanner: false,
+      home: Splashscreen(),
+    );
   }
 }
