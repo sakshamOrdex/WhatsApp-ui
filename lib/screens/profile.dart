@@ -14,9 +14,11 @@ class _Profile extends State<Profile> {
     return Scaffold(
       body: Center(
         child: Padding(
-          padding: EdgeInsets.all(40),
+          padding: EdgeInsets.all(10),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              SizedBox(height: 30),
               Uihelper.customText(
                 text: "Profile info",
                 height: 18,
@@ -24,7 +26,7 @@ class _Profile extends State<Profile> {
                 fontweight: FontWeight.bold,
                 color: Color(0xFF00A884),
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 30),
               Uihelper.customText(
                 text: "Please provide your name and an optional",
                 height: 14,
@@ -35,6 +37,29 @@ class _Profile extends State<Profile> {
                 text: "profile photo",
                 height: 14,
                 fontFamily: "regular",
+              ),
+              SizedBox(height: 20),
+              CircleAvatar(
+                radius: 90,
+                backgroundColor: Color(0xFFD9D9D9),
+                child: Image.asset(
+                  'assets/image/photo-camera 1.png',
+                  height: 50,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              SizedBox(height: 20),
+              SizedBox(
+                width: 300,
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: "Type your name here",
+                    border: UnderlineInputBorder(
+                      borderSide: BorderSide(color: Color(0xFF00A884)),
+                    ),
+                    suffixIcon: Icon(Icons.face, color: Color(0xFF00A884)),
+                  ),
+                ),
               ),
             ],
           ),
