@@ -2,13 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:whatsapp_clone_ui/screens/profile.dart';
 import 'package:whatsapp_clone_ui/widgets/uihelper.dart';
 
-// class Otp extends StatefulWidget {
-//   String? phoneNumber;
-//   Otp({super.key,required this.phoneNumber});
-//   @override
-//   State<Otp> createState() => _Otp();
-// }
-
 class Otp extends StatelessWidget {
   String? phoneNumber;
   Otp({required this.phoneNumber});
