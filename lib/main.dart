@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone_ui/screens/Home/homescreen.dart';
-// import 'package:whatsapp_clone_ui/screens/splashscreen.dart';
+// import 'package:whatsapp_clone_ui/screens/Home/homescreen.dart';
+import 'package:whatsapp_clone_ui/screens/splashscreen.dart';
 
 void main() {
   runApp(MyHome());
@@ -19,7 +19,7 @@ class MyHome extends StatelessWidget {
         fontFamily: "Regular",
       ),
       debugShowCheckedModeBanner: false,
-      home: Homescreen(),
+      home: Splashscreen(),
     );
   }
 }

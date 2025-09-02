@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone_ui/widgets/uihelper.dart';
+import 'package:whatsapp_clone_ui/screens/Home/contactscree.dart';
 
 class Chatsscreen extends StatelessWidget {
   var arrContent = [
@@ -150,17 +151,25 @@ class Chatsscreen extends StatelessWidget {
                         ),
                       ),
                     ],
-                  ), 
+                  ),
                 );
               },
             ),
           ),
         ],
       ),
-      floatingActionButton: CircleAvatar(
-        radius: 25,
-        backgroundColor: Color(0xFF008665),
-        child: Icon(Icons.chat_rounded, color: Colors.white),
+      floatingActionButton: GestureDetector(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => ContactScreen()),
+          );
+        },
+        child: CircleAvatar(
+          radius: 25,
+          backgroundColor: Color(0xFF008665),
+          child: Icon(Icons.chat_rounded, color: Colors.white),
+        ),
       ),
     );
   }

@@ -44,7 +44,7 @@ class Homescreen extends StatelessWidget {
           children: [
             Camerascreen(),
             Chatsscreen(),
-            Statusscreen(),
+            StatusScreen(),
             Callsscreen(),
           ],
         ),
