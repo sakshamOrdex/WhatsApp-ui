@@ -4,7 +4,7 @@ import 'package:whatsapp_clone_ui/widgets/uihelper.dart';
 
 class Otp extends StatelessWidget {
   String? phoneNumber;
-  Otp({required this.phoneNumber});
+  Otp({super.key, required this.phoneNumber});
   TextEditingController otp1 = TextEditingController();
   TextEditingController otp2 = TextEditingController();
   TextEditingController otp3 = TextEditingController();
