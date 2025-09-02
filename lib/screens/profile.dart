@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone_ui/screens/Home/homescreen.dart';
 import 'package:whatsapp_clone_ui/widgets/uihelper.dart';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
@@ -85,10 +86,10 @@ class _Profile extends State<Profile> {
       ),
       floatingActionButton: Uihelper.customButton(
         callback: () {
-          // Navigator.push(
-          //   context,
-          //   MaterialPageRoute(builder: (context) =>),
-          // );
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Homescreen()),
+          );
         },
         buttonname: "Next",
       ),
