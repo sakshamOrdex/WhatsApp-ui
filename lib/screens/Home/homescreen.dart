@@ -14,6 +14,7 @@ class Homescreen extends StatelessWidget {
       length: 4,
       child: Scaffold(
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           elevation: 0,
           bottom: TabBar(
             tabs: [
@@ -42,7 +43,7 @@ class Homescreen extends StatelessWidget {
         ),
         body: TabBarView(
           children: [
-            Camerascreen(),
+            CameraScreen(),
             Chatsscreen(),
             StatusScreen(),
             Callsscreen(),
