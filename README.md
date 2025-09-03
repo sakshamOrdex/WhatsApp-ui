@@ -9,4 +9,6 @@ A Flutter-based **WhatsApp Clone UI** with basic functionalities to showcase the
 - ➕ Floating Action Button for new chat  
 - 🎯 Minimal functionality added to make it interactive  
 
-
+## 📲 App Link  
+You can download or install the app from here:  
+[Download WhatsApp Clone UI APK]https://drive.google.com/file/d/1o4DBbIhZFRoLcB02D4bEFUNF8MfMeOAf/view?usp=sharing

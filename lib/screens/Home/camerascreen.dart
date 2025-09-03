@@ -35,6 +35,11 @@ class _CameraScreenState extends State<CameraScreen> {
     if (controller == null || !controller!.value.isInitialized) {
       return const Center(child: CircularProgressIndicator());
     }
-    return Scaffold(body: CameraPreview(controller!));
+    return Scaffold(
+      body: SizedBox.expand(
+        // ✅ Fill entire screen
+        child: CameraPreview(controller!),
+      ),
+    );
   }
 }

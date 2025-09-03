@@ -5,46 +5,76 @@ import 'package:whatsapp_clone_ui/screens/Home/contactscree.dart';
 class Chatsscreen extends StatelessWidget {
   var arrContent = [
     {
-      "images": "assets/image/user1.png",
+      "images":
+          "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
       "name": "Aron",
-      "lastmsg": "Hope you reached home!",
-      "time": "05:26 pm",
+      "lastmsg": "Lorem Ipsum",
+      "time": "05:45 am",
       "msg": "7",
     },
     {
-      "images": "assets/image/user2.png",
-      "name": "Kethyy",
-      "lastmsg": "Have you seen the PPT?",
-      "time": "04:16 pm",
+      "images":
+          "https://images.healthshots.com/healthshots/en/uploads/2020/12/08182549/positive-person.jpg",
+      "name": "Aron1",
+      "lastmsg": "Flutter",
+      "time": "06:45 am",
       "msg": "1",
     },
     {
-      "images": "assets/image/user3.png",
-      "name": "Arine",
-      "lastmsg": "Hope you reached home!",
-      "time": "05:00 pm",
-      "msg": "4",
+      "images":
+          "https://digitalnectar.in/wp-content/uploads/2024/04/banner-right-img.webp",
+      "name": "WSCUBETECH",
+      "lastmsg": "Flutter Batch is Starting",
+      "time": "07:45 am",
+      "msg": "2",
     },
     {
-      "images": "assets/image/user4.png",
-      "name": "William",
-      "lastmsg": "Hope you reached home!",
-      "time": "06:06 am",
-      "msg": "4",
-    },
-    {
-      "images": "assets/image/user5.png",
-      "name": "Chris",
-      "lastmsg": "Hope you reached home!",
-      "time": "02:46 pm",
-      "msg": "3",
-    },
-    {
-      "images": "assets/image/user1.png",
+      "images":
+          "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
       "name": "Aron",
-      "lastmsg": "Hope you reached home!",
-      "time": "05:26 pm",
+      "lastmsg": "Lorem Ipsum",
+      "time": "05:45 am",
       "msg": "7",
+    },
+    {
+      "images":
+          "https://images.healthshots.com/healthshots/en/uploads/2020/12/08182549/positive-person.jpg",
+      "name": "Aron1",
+      "lastmsg": "Flutter",
+      "time": "06:45 am",
+      "msg": "1",
+    },
+    {
+      "images":
+          "https://digitalnectar.in/wp-content/uploads/2024/04/banner-right-img.webp",
+      "name": "WSCUBETECH",
+      "lastmsg": "Flutter Batch is Starting",
+      "time": "07:45 am",
+      "msg": "2",
+    },
+    {
+      "images":
+          "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+      "name": "Aron",
+      "lastmsg": "Lorem Ipsum",
+      "time": "05:45 am",
+      "msg": "7",
+    },
+    {
+      "images":
+          "https://images.healthshots.com/healthshots/en/uploads/2020/12/08182549/positive-person.jpg",
+      "name": "Aron1",
+      "lastmsg": "Flutter",
+      "time": "06:45 am",
+      "msg": "1",
+    },
+    {
+      "images":
+          "https://digitalnectar.in/wp-content/uploads/2024/04/banner-right-img.webp",
+      "name": "WSCUBETECH",
+      "lastmsg": "Flutter Batch is Starting",
+      "time": "07:45 am",
+      "msg": "2",
     },
   ];
 
